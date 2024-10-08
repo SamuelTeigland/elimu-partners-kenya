@@ -1,0 +1,156 @@
+:root {
+  --font-family: inter, acumin-pro, sans-serif;
+
+  --text: #06110c;
+  --accent-background: #daffef;
+  --darker-background: #04351f;
+  --background: #f4fbf8;
+  --primary: #008c51;
+  --secondary: #a5d6c1;
+  --tertiary: #10fb86;
+  --quaternary: #b1ad8d;
+  --quinary: #c4a9ae;
+  --accent: #bf0000;
+  --secondary-accent: #d77d7d;
+
+  --black: #0000;
+  --white: #ffff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: var(--font-family);
+}
+
+html {
+  background: var(--background);
+}
+
+::-webkit-scrollbar {
+  background: var(--background);
+  width: .5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text);
+  border-radius: 1rem;
+}
+
+a {
+  color: var(--accent);
+  cursor: pointer;
+  transition: .5s ease-in-out;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--text);
+}
+
+button {
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: .25rem;
+  padding: .5rem;
+  transition: .5s ease-in-out;
+}
+
+.button__primary {
+  border: .15rem solid var(--primary);
+  color: var(--primary);
+  background: transparent;
+  box-shadow: .1rem .1rem 1rem transparent;
+}
+
+.button__primary:hover {
+  box-shadow: .1rem .1rem 1rem var(--primary);
+}
+
+.button__secondary {
+  color: var(--background);
+  background: var(--text);
+  border: .15rem solid var(--text);
+  box-shadow: .1rem .1rem 1rem transparent;
+}
+
+.button__secondary:hover {
+  box-shadow: .1rem .1rem 1rem var(--text);
+}
+
+.button__tertiary {
+  color: var(--text);
+  background: var(--tertiary);
+  border: .15rem solid var(--tertiary);
+  box-shadow: .1rem .1rem 1rem transparent;
+}
+
+.button__tertiary:hover {
+  box-shadow: .1rem .1rem 1rem var(--tertiary);
+}
+
+.button__quaternary {
+  color: var(--text);
+  background: var(--quaternary);
+  border: .15rem solid var(--quaternary);
+  box-shadow: .1rem .1rem 1rem transparent;
+}
+
+.button__quaternary:hover {
+  box-shadow: .1rem .1rem 1rem var(--quaternary);
+}
+
+.button__quinary {
+  color: var(--text);
+  background: var(--quinary);
+  border: .15rem solid var(--quinary);
+  box-shadow: .1rem .1rem 1rem transparent;
+}
+
+.button__quinary:hover {
+  box-shadow: .1rem .1rem 1rem var(--quinary);
+}
+
+@media (max-width: 1000px) {
+  button {
+    border-radius: .25rem;
+    padding: .5rem;
+  }
+
+  .button__primary {
+    border: .15rem solid var(--primary);
+    box-shadow: .1rem .1rem 1rem transparent;
+  }
+  
+  .button__primary:hover {
+    box-shadow: .1rem .1rem 1rem var(--primary);
+  }
+  
+  .button__secondary {
+    border: .15rem solid var(--text);
+    box-shadow: .1rem .1rem 1rem transparent;
+  }
+  
+  .button__secondary:hover {
+    box-shadow: .1rem .1rem 1rem var(--text);
+  }
+  
+  .button__tertiary {
+    border: .15rem solid var(--tertiary);
+    box-shadow: .1rem .1rem 1rem transparent;
+  }
+  
+  .button__tertiary:hover {
+    box-shadow: .1rem .1rem 1rem var(--tertiary);
+  }
+
+  .button__quaternary {
+    border: .15rem solid var(--quaternary);
+    box-shadow: .1rem .1rem 1rem transparent;
+  }
+  
+  .button__quaternary:hover {
+    box-shadow: .1rem .1rem 1rem var(--quaternary);
+  }
+}

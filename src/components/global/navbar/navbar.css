@@ -1,0 +1,17 @@
+.navbar__container {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    text-align: center;
+    background: var(--accent-background);
+    border-bottom: solid 2.5px var(--primary);
+    position: sticky;
+    top: 0;
+}
+
+.navbar__logo--container {
+    cursor: pointer;
+}
+
+.navbar__logo--container svg {
+    height: 7rem;
+}
