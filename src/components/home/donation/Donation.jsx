@@ -8,9 +8,9 @@ export default function Donation() {
                     <h2 className='donation__left--subheader'>Join Elimu Parnters Kenya</h2>
                     <p className='donation__left--paragraph'>Help make a difference!</p>
                     <div className='donation__left--subcontainer__link'>
-                        <a target="_blank" rel="noopener noreferrer" href='mailto:contact@websiteartificers.com'>
+                        <a target="_blank" rel="noopener noreferrer" href='mailto:mstebbe@fishersumc.org'>
                             <h3 className='donation__left--subcontainer--subheader'>Email us!</h3>
-                            <p className='donation__left--subcontainer--paragraph'>Email <span>contact@websiteartificers.com</span> with any questions!</p>
+                            <p className='donation__left--subcontainer--paragraph'>Email <span>mstebbe@fishersumc.org</span> with any questions!</p>
                         </a>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ export default function Donation() {
                         <a
                             className='donation__right--subcontainer__link'
                             target="_blank" rel="noopener noreferrer"
-                            href='mailto:contact@websiteartificers.com'>
+                            href='mailto:mstebbe@fishersumc.org'>
                             <p>Contact us!</p>
                         </a>
                     </div>

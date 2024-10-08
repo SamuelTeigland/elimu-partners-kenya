@@ -10,7 +10,7 @@ export default function Hero() {
                     <a className='hero__link' href='/#donation'>
                         <button className='hero__button button__quinary'>Donate</button>
                     </a>
-                    <a className='hero__link' target="_blank" rel="noopener noreferrer" href='mailto:contact@websiteartificers.com'>
+                    <a className='hero__link' target="_blank" rel="noopener noreferrer" href='mailto:mstebbe@fishersumc.org'>
                         <button className='hero__button button__primary'>Contact us!</button>
                     </a>
                 </div>
