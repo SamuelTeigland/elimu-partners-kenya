@@ -16,7 +16,7 @@ export default function Hero() {
                 </div>
             </div>
             <div className='hero__subcontainer'>
-                <img className='hero__subcontainer--image' src='/public/images/kenyanKid.jpg' alt='Kenyan Child' />
+                <img className='hero__subcontainer--image' src='/images/kenyanKid.jpg' alt='Kenyan Child' />
             </div>
         </div>
     )
