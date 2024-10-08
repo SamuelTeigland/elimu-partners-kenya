@@ -33,7 +33,7 @@ export default function Donation() {
                         </p>
                     </div>
                     <div className='donation__right--subcontainer--subcontainer'>
-                        <a className='donation__right--subcontainer__link'>
+                        <a className='donation__right--subcontainer__link' href='https://www.zeffy.com/donation-form/a166cdf1-90c8-4fa1-a29a-97cf0dc59ba1'>
                             <button className='donation__button button__quinary'>Donate</button>
                         </a>
                         <p className='donation__right--subcontainer__paragraph'>or</p>
