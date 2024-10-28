@@ -1,11 +1,14 @@
+.navbar {
+    position: sticky;
+    top: 0;
+}
+
 .navbar__container {
     padding-top: .25rem;
     padding-bottom: .25rem;
     text-align: center;
     background: var(--accent-background);
     border-bottom: solid 2.5px var(--primary);
-    position: sticky;
-    top: 0;
 }
 
 .navbar__logo--container {
@@ -14,4 +17,92 @@
 
 .navbar__logo--container svg {
     height: 7rem;
+}
+
+.navbar__link--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar__link--container a {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--darker-background)
+}
+
+.hamburger__container {
+    display: none;
+}
+
+.hamburger__link--container {
+    display: none;
+}
+
+.hamburger__container svg {
+    height: 3rem;
+}
+
+@media (max-width: 425px) {
+    .navbar__container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+
+    .hamburger__container {
+        display: block;
+        cursor: pointer;
+    }
+
+    .navbar__link--container a {
+        display: none;
+    }
+
+    .navbar__link--container {
+        margin-left: auto;
+    }
+
+    .hamburger__link--container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        background: var(--darker-background);
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .hamburger__link--container a {
+        font-size: 1.25rem;
+        color: var(--background);
+        font-weight: 600;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: .5rem;
+        padding-right: .5rem;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        border-bottom: 1px solid var(--tertiary);
+    }
+
+    .hamburger__link--container a:hover {
+        background: var(--tertiary);
+    }
+    
+    .hidden__menu {
+        display: none;
+    }
+    
+    .shown__menu {
+        display: flex;
+    }
 }
