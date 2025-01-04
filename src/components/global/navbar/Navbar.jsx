@@ -1,6 +1,7 @@
 import './navbar.css'
 import { MainLogo, Hamburger } from '../../.././assets/assets';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     const [ isVisible, setVisible ] = useState(false);
@@ -22,9 +23,9 @@ export default function Navbar() {
                     target="_blank" rel="noopener noreferrer" href='mailto:mstebbe@fishersumc.org'>
                         Contact Us
                     </a>
-                    <a href="/about">
+                    <Link to="/about">
                         About Us
-                    </a>
+                    </Link>
                     <div className='hamburger__container' onClick={
                         () => {
                             setVisible(!isVisible);
