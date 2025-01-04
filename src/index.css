@@ -1,4 +1,4 @@
-:root {
+ :root {
   --font-family: 'Montserrat', acumin-pro, sans-serif;
 
   --text: #06110c;
@@ -14,6 +14,7 @@
   --secondary-accent: #d77d7d;
 
   --black: #0000;
+  --grey: #636363;
   --white: #ffff;
 }
 

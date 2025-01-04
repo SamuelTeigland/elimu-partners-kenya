@@ -1,13 +1,21 @@
-import { Hero, Donation } from './components/components'
+import React from 'react'
+import { Navbar, Footer } from './components/components.js'
+import { Home, About } from './pages/pages.js'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
-function App() {
-
+export default function App() {
   return (
-    <div>
-      <Hero />
-      <Donation />
-    </div>
-  )
+    <Router>
+        <Navbar />
+        <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+        </Routes>
+        <Footer />
+    </Router>
+  );
 }
-
-export default App

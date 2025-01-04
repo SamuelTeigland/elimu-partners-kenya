@@ -22,6 +22,9 @@ export default function Navbar() {
                     target="_blank" rel="noopener noreferrer" href='mailto:mstebbe@fishersumc.org'>
                         Contact Us
                     </a>
+                    <a href="/about">
+                        About Us
+                    </a>
                     <div className='hamburger__container' onClick={
                         () => {
                             setVisible(!isVisible);
