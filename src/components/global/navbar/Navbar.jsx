@@ -46,6 +46,9 @@ export default function Navbar() {
                 target="_blank" rel="noopener noreferrer" href='mailto:mstebbe@fishersumc.org'>
                     Contact Us
                 </a>
+                <Link to="/about">
+                    About Us
+                </Link>
             </div>
         </div>
     )
