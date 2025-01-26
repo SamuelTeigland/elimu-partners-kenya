@@ -1,0 +1,40 @@
+.vision__container {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    background: var(--darker-background);
+}
+
+.vision__paragraph {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--background);
+    width: 80%;
+    margin: auto;
+}
+
+@media (max-width: 850px) {
+    .vision__paragraph {
+        font-size: 2.5rem;
+        width: 95%;
+    }
+}
+
+@media (max-width: 500px) {
+    .vision__container {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        text-align: center;
+    }
+
+    .vision__paragraph {
+        font-size: 2rem;
+        text-align: left;
+    }
+}
+
+@media (max-width: 350px) {
+    .vision__paragraph {
+        font-size: 1.5rem;
+    }
+}
