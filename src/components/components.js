@@ -7,6 +7,7 @@ export { default as Footer } from './global/footer/Footer'
 export { default as Hero } from './home/hero/Hero'
 export { default as Donation } from './home/donation/Donation'
 export { default as Vision } from './home/vision/Vision'
+export { default as Serve } from './home/serve/Serve'
 
 // About
 export { default as Future } from './about/future/Future'

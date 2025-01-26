@@ -1,4 +1,4 @@
-import { Hero, Donation, Vision } from '.././components/components'
+import { Hero, Donation, Vision, Serve } from '.././components/components'
 
 function Home() {
 
@@ -7,6 +7,7 @@ function Home() {
       <Hero />
       <Donation />
       <Vision />
+      <Serve />
     </div>
   )
 }
