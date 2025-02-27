@@ -35,16 +35,28 @@ export default function Navbar() {
                 </div>
             </div>
             <div className={ isVisible === true ? 'hamburger__link--container shown__menu' : 'hamburger__link--container hidden__menu' }>
-                <a href='#'>
+                <a href='#' onClick={
+                        () => {
+                            setVisible(!isVisible);
+                        }
+                    }>
                     Greenhill Academy
                 </a>
                 <a href='https://www.zeffy.com/donation-form/a166cdf1-90c8-4fa1-a29a-97cf0dc59ba1'>
                     Donate
                 </a>
-                <Link to='/contact-us'>
+                <Link to='/contact-us' onClick={
+                    () => {
+                        setVisible(!isVisible);
+                    }
+                }>
                     Contact Us
                 </Link>
-                <Link to="/about">
+                <Link to="/about" onClick={
+                    () => {
+                        setVisible(!isVisible);
+                    }
+                }>
                     About Us
                 </Link>
             </div>
