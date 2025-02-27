@@ -19,10 +19,9 @@ export default function Navbar() {
                     <a href='https://www.zeffy.com/donation-form/a166cdf1-90c8-4fa1-a29a-97cf0dc59ba1'>
                         Donate
                     </a>
-                    <a
-                    target="_blank" rel="noopener noreferrer" href='mailto:mstebbe@fishersumc.org'>
+                    <Link to='/contact-us'>
                         Contact Us
-                    </a>
+                    </ Link>
                     <Link to="/about">
                         About Us
                     </Link>
@@ -42,10 +41,9 @@ export default function Navbar() {
                 <a href='https://www.zeffy.com/donation-form/a166cdf1-90c8-4fa1-a29a-97cf0dc59ba1'>
                     Donate
                 </a>
-                <a
-                target="_blank" rel="noopener noreferrer" href='mailto:mstebbe@fishersumc.org'>
+                <Link to='/contact-us'>
                     Contact Us
-                </a>
+                </Link>
                 <Link to="/about">
                     About Us
                 </Link>

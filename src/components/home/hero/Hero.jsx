@@ -1,4 +1,5 @@
 import './hero.css'
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
     return (
@@ -10,9 +11,9 @@ export default function Hero() {
                     <a className='hero__link' href='/#donation'>
                         <button className='hero__button button__quinary'>Donate</button>
                     </a>
-                    <a className='hero__link' target="_blank" rel="noopener noreferrer" href='mailto:mstebbe@fishersumc.org'>
+                    <Link to='/contact-us'>
                         <button className='hero__button button__primary'>Contact us!</button>
-                    </a>
+                    </Link>
                 </div>
             </div>
             <div className='hero__subcontainer'>

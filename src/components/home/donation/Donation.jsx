@@ -1,4 +1,5 @@
 import './donation.css'
+import { Link } from 'react-router-dom';
 
 export default function Donation() {
     return (
@@ -37,12 +38,11 @@ export default function Donation() {
                             <button className='donation__button button__quinary'>Donate</button>
                         </a>
                         <p className='donation__right--subcontainer__paragraph'>or</p>
-                        <a
+                        <Link
                             className='donation__right--subcontainer__link'
-                            target="_blank" rel="noopener noreferrer"
-                            href='mailto:mstebbe@fishersumc.org'>
+                            to='/contact-us'>
                             <p>Contact us!</p>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
