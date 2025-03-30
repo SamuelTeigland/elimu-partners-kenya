@@ -12,7 +12,7 @@ export default function Contact() {
             {/* start of form */}
 
             <div className='contact__form--container'>
-                <form className='contact__form' action="https://formsubmit.co/395c919341c62f325f27afba96e5ab1" method="POST">
+                <form className='contact__form' action="https://formsubmit.co/samuelteigland@websiteartificers.com" method="POST">
                     <input type="hidden" name="_subject" value="SUBMISSION: Contact Form"></input>
                     <input type="hidden" name="_autoresponse" value="Thanks for reaching out to Elimu Partners Kenya!  We will respond shortly."></input>
                     <input type="hidden" name="_cc" value="mstebbe@fishersumc.org"></input>
