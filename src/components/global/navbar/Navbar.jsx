@@ -14,7 +14,7 @@ export default function Navbar() {
                 </a>
                 <div className='navbar__link--container'>
                     <a href='#'>
-                        Greenhill Academy
+                        Greenhill Amani School
                     </a>
                     <a href='https://www.zeffy.com/donation-form/a166cdf1-90c8-4fa1-a29a-97cf0dc59ba1'>
                         Donate
@@ -40,7 +40,7 @@ export default function Navbar() {
                             setVisible(!isVisible);
                         }
                     }>
-                    Greenhill Academy
+                    Greenhill Amani School
                 </a>
                 <a href='https://www.zeffy.com/donation-form/a166cdf1-90c8-4fa1-a29a-97cf0dc59ba1'>
                     Donate
