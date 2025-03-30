@@ -5,7 +5,7 @@ export default function SignUp() {
         <div className='signup__container'>
             <h2 className='signup__header'><span>Sign Up</span> for Our Newsletter!</h2>
 
-            <form className='signup__form' action="https://formsubmit.co/contact@websiteartificers.com" method="POST">
+            <form className='signup__form' action="https://formsubmit.co/4568779cac6412ec4782c7b3ebda1647" method="POST">
                 <input type="hidden" name="_subject" value="SUBMISSION: Newsletter Sign Up!"></input>
                 <input type="hidden" name="_autoresponse" value="Thanks for signing up to our newsletter"></input>
                 <input type="hidden" name="_cc" value="mstebbe@fishersumc.org"></input>
