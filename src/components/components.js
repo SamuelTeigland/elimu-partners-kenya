@@ -14,3 +14,7 @@ export { default as Serve } from './home/serve/Serve'
 export { default as Future } from './about/future/Future'
 export { default as History } from './about/history/History'
 export { default as Values } from './about/values/Values'
+
+// Newsletter
+export { default as SignUp } from './newsletter/sign-up/Sign-up'
+export { default as News } from './newsletter/news/News'

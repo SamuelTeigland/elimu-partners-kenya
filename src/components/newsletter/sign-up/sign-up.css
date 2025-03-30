@@ -1,0 +1,127 @@
+.signup__container {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    border-top: 5px solid var(--accent);
+}
+
+.signup__header {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    color: var(--text);
+    margin-bottom: 3rem;
+}
+
+.signup__header span {
+    color: var(--accent)
+}
+
+.signup__form {
+    background: var(--secondary);
+    width: 60%;
+    margin: auto;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.signup__form--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2%;
+    width: 100%;
+    margin: auto;
+    gap: 2%;
+}
+
+.signup__form--subcontainer {
+    display: flex;
+    width: 49%;
+    margin: auto;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.signup__form--label {
+    font-size: 2rem;
+    color: var(--text);
+    font-weight: 800;
+}
+
+.signup__form--input {
+    font-size: 2rem;
+    color: var(--background);
+    background: transparent;
+    border: var(--primary) solid 2px;
+    border-radius: 15px;
+    height: 3rem;
+    outline: none;
+    padding: 5px;
+}
+
+.signup__form--input::placeholder {
+    color: var(--grey);
+}
+
+.signup__submit--button {
+    font-size: 2rem;
+    width: 100%;
+    border-radius: 15px;
+} 
+
+@media (max-width: 950px) {
+    .signup__form {
+        width: auto;
+        border-radius: 0px;
+    }
+
+    .signup__form--container {
+        flex-direction: column;
+        justify-content: start;
+        gap: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .signup__form--subcontainer {
+        width: 99%;
+    }
+}
+
+@media (max-width: 450px) {
+    .signup__container {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .signup__header {
+        font-size: 2.5rem;
+        padding-bottom: 1.5rem;
+        line-height: 3rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .signup__header {
+        text-align: left;
+        margin: auto;
+        width: 95%;
+    }
+
+    .signup__form--container {
+        gap: .5rem;
+        padding-bottom: 1rem;
+    }
+
+    .signup__form--label {
+        font-size: 1.25rem;
+    }
+
+    .signup__form--input {
+        font-size: 1.25rem;
+        height: 2rem;
+    }
+
+    .signup__submit--button {
+        font-size: 1.25rem;
+    }
+}

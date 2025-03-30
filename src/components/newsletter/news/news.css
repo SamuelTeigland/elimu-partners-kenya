@@ -1,0 +1,130 @@
+.news__container {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background: var(--text);
+}
+
+.news__subheader {
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 800;
+    color: var(--background);
+    margin-bottom: -2rem;
+}
+
+.news__header {
+    font-size: 8rem;
+    text-align: center;
+    font-weight: 800;
+    color: var(--secondary);
+}
+
+.news__paragraph {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 800;
+    color: var(--background);
+    width: 80%;
+    margin: auto;
+}
+
+.news__paragraph span {
+    color: var(--accent);
+}
+
+.news__subcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    gap: 3rem;
+}
+
+.news__button {
+    font-size: 2.5rem;
+}
+
+@media (max-width: 900px) {
+    .news__subheader {
+        font-size: 4rem;
+    }
+    
+    .news__header {
+        font-size: 6rem;
+    }
+    
+    .news__paragraph {
+        font-size: 2rem;
+        width: 95%;
+    }
+
+    .news__button {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .news__subheader {
+        font-size: 3rem;
+        text-align: left;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -1rem;
+    }
+    
+    .news__header {
+        font-size: 5rem;
+        text-align: left;
+        width: 95%;
+        margin: auto;
+        line-height: 6rem;
+    }
+    
+    .news__paragraph {
+        font-size: 2rem;
+        width: 95%;
+        text-align: left;
+    }
+
+    .news__link {
+        width: 95%;
+        margin: auto;
+    }
+
+    .news__button {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .news__subcontainer {
+        flex-direction: column;
+        margin-top: 1.5rem;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .news__container {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .news__subheader {
+        font-size: 1.5rem;
+        margin: auto;
+    }
+    
+    .news__header {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    
+    .news__paragraph {
+        font-size: 1.25rem;
+    }
+
+    .news__button {
+        font-size: 1.25rem;
+    }
+}

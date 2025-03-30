@@ -19,6 +19,9 @@ export default function Navbar() {
                     <a href='https://www.zeffy.com/donation-form/a166cdf1-90c8-4fa1-a29a-97cf0dc59ba1'>
                         Donate
                     </a>
+                    <Link to='/newsletter'>
+                        Newsletter
+                    </ Link>
                     <Link to='/contact-us'>
                         Contact Us
                     </ Link>
@@ -45,6 +48,13 @@ export default function Navbar() {
                 <a href='https://www.zeffy.com/donation-form/a166cdf1-90c8-4fa1-a29a-97cf0dc59ba1'>
                     Donate
                 </a>
+                <Link to='/newsletter' onClick={
+                    () => {
+                        setVisible(!isVisible);
+                    }
+                }>
+                    Newsletter
+                </Link>
                 <Link to='/contact-us' onClick={
                     () => {
                         setVisible(!isVisible);
