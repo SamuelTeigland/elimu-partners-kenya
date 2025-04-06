@@ -1,4 +1,4 @@
-import { History, Values, Future } from '.././components/components'
+import { History, Values, Future, Donate } from '.././components/components'
 function About() {
 
   return (
@@ -6,6 +6,7 @@ function About() {
       <History />
       <Future />
       <Values />
+      <Donate />
     </div>
   )
 }
