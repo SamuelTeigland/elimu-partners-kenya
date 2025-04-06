@@ -8,7 +8,7 @@ export default function Footer() {
                 <SecondaryLogo />
             </div>
             <div className='footer__bottom--container'>
-                <h2 className='footer__subheader'>Created with passion by <a target="_blank" rel="noopener noreferrer" href='https://websiteartificers.com'>Website Artificers</a> © 2024</h2>
+                <h2 className='footer__subheader'>Created with passion by <a target="_blank" rel="noopener noreferrer" href='https://websiteartificers.com'>Website Artificers</a> © 2025</h2>
             </div>
         </div>
     )
