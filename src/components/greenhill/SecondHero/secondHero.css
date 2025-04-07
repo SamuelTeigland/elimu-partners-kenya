@@ -1,0 +1,123 @@
+.secondHero__container {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: var(--darker-background);
+}
+
+.secondHero__subcontainer {
+    width: 50%;
+}
+
+.secondHero__header {
+    width: 95%;
+    margin: auto;
+    text-align: left;
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 6rem;
+    color: var(--background);
+}
+
+.secondHero__paragraph {
+    width: 95%;
+    margin: auto;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--background);
+    margin-top: 2rem;
+}
+
+.secondHero__button--container {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.secondHero__button {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.secondHero__subcontainer--image {
+    border-radius: 15px;
+    width: 95%;
+    margin: auto;
+}
+
+@media (max-width: 1000px) {
+    .secondHero__container {
+        flex-direction: column-reverse;
+    }
+
+    .secondHero__subcontainer {
+        width: 95%;
+        margin: auto;
+    }
+
+    .secondHero__subcontainer--image {
+        width: 100%;
+    }
+}
+
+@media (max-width: 750px) {
+    .secondHero__header {
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .secondHero__header {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .secondHero__paragraph {
+        font-size: 1.75rem;
+    }
+
+    .secondHero__button {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .secondHero__container {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .secondHero__header {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .secondHero__paragraph {
+        font-size: 1.5rem;
+    }
+
+    .secondHero__button--container {
+        flex-direction: column;
+    }
+
+    .secondHero__button {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .secondHero__header {
+        font-size: 2.25rem;
+        line-height: 2.75rem;
+    }
+}

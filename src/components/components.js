@@ -18,3 +18,9 @@ export { default as Values } from './about/values/Values'
 // Newsletter
 export { default as SignUp } from './newsletter/sign-up/Sign-up'
 export { default as News } from './newsletter/news/News'
+
+// Greenhill Amani School
+export { default as SecondHero } from './greenhill/SecondHero/SecondHero'
+export { default as GreenhillSupport } from './greenhill/GreenhillSupport/GreenhillSupport'
+export { default as GreenhillDescription } from './greenhill/GreenhillDescription/GreenhillDescription'
+export { default as GreenhillBody } from './greenhill/GreenhillBody/GreenhillBody'

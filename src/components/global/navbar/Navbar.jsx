@@ -13,9 +13,9 @@ export default function Navbar() {
                     <MainLogo />
                 </a>
                 <div className='navbar__link--container'>
-                    <a href='#'>
+                    <Link to='/greenhill-amani-school'>
                         Greenhill Amani School
-                    </a>
+                    </Link>
                     <a href='https://www.zeffy.com/donation-form/a166cdf1-90c8-4fa1-a29a-97cf0dc59ba1'>
                         Donate
                     </a>
@@ -38,13 +38,13 @@ export default function Navbar() {
                 </div>
             </div>
             <div className={ isVisible === true ? 'hamburger__link--container shown__menu' : 'hamburger__link--container hidden__menu' }>
-                <a href='#' onClick={
+                <Link to='/greenhill-amani-school' onClick={
                         () => {
                             setVisible(!isVisible);
                         }
                     }>
                     Greenhill Amani School
-                </a>
+                </Link>
                 <a href='https://www.zeffy.com/donation-form/a166cdf1-90c8-4fa1-a29a-97cf0dc59ba1'>
                     Donate
                 </a>

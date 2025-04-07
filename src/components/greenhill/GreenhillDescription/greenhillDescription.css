@@ -1,0 +1,131 @@
+.greenhillDescription__container {
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
+
+.greenhillDescription__paragraph {
+    width: 95%;
+    margin: auto;
+    font-size: 2.5rem;
+    text-align: left;
+    font-weight: 200;
+    line-height: 3rem;
+    color: var(--darker-background);
+    margin-bottom: 3rem;
+}
+
+.greenhillDescription__paragraph span {
+    font-weight: 800;
+}
+
+.greenhillDescription__subcontainer {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    gap: 3rem;
+    flex-direction: center;
+    align-items: center;
+}
+
+.greenhillDescription__image--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greenhillDescription__image--container img {
+    height: 25rem;
+    width: auto;
+    border-radius: 15px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.greenhillDescription__text--container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.greenhillDescription__header {
+    color: var(--darker-background);
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.greenhillDescription__text--subcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.greenhillDescription__text {
+    font-size: 1.5rem;
+    color: var(--darker-background)
+}
+
+.greenhillDescription__italic {
+    font-size: 1.5rem;
+    color: var(--darker-background);
+    font-weight: 800;
+}
+
+@media (max-width: 1000px) {
+    .greenhillDescription__paragraph {
+        font-size: 2rem;
+    }
+
+    .greenhillDescription__subcontainer {
+        flex-direction: column;
+    }
+
+    .greenhillDescription__image--container {
+        display: block;
+        width: 100%;
+    }
+
+    .greenhillDescription__image--container img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .greenhillDescription__paragraph {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+
+    .greenhillDescription__header {
+        font-size: 1.5rem;
+    }
+
+    .greenhillDescription__text {
+        font-size: 1.25rem;
+    }
+
+    .greenhillDescription__italic {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .greenhillDescription__paragraph {
+        font-size: 1.25rem;
+        line-height: 2.15rem;
+    }
+
+    .greenhillDescription__header {
+        font-size: 1.25rem;
+    }
+
+    .greenhillDescription__text {
+        font-size: 1.15rem;
+    }
+
+    .greenhillDescription__italic {
+        font-size: 1.15rem;
+    }
+}
